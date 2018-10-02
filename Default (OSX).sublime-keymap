@@ -1,0 +1,49 @@
+[
+	{"keys": ["command+shift+;"], "command": "run_macro_file", "args": {"file": "Packages/User/New Line Semicolon.sublime-macro"}},
+	{"keys": ["command+;"], "command": "run_macro_file", "args": {"file": "Packages/User/EOL Semicolon.sublime-macro"}},
+	{"keys": ["command+shift+["], "command": "run_macro_file", "args": {"file": "Packages/User/New Line Curly.sublime-macro"}},
+
+    {
+        "keys": [
+            "ctrl+d"
+        ],
+        "command": "right_delete"
+    },
+    {
+        "keys": [
+            "ctrl+e"
+        ],
+        "command": "move_to",
+        "args": {
+            "to": "hardeol"
+        }
+    },
+    {
+        "keys": [
+            "shift+command+x"
+        ],
+        "args": {
+            "action": "match_pair_outward"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.match_pair_outward"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "command+e"
+        ],
+        "args": {
+            "action": "expand_abbreviation"
+        },
+        "command": "run_emmet_action",
+        "context": [
+            {
+                "key": "emmet_action_enabled.expand_abbreviation"
+            }
+        ]
+    }
+]
