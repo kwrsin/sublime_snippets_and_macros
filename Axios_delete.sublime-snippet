@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+Axios.delete(this.apiURL + '/' + id)
+  .then((res) => {
+    this.setState({data: remainder});
+  });
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>axios:DELETE</tabTrigger>
+  <description>axios:DELETE（削除）</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

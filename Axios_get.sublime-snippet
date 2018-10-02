@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+Axios.get(this.apiURL)
+  .then((res) => {
+    this.setState({data: res.data})
+    window.id = this.state.data ? this.state.data[this.state.data.length - 1].id: 0;
+  });
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>axios:GET</tabTrigger>
+  <description>axios:GET（取得）</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+function $1(props) {
+  return (
+//    <div
+//      className='css_class_name'
+//      onClick={props.onClick}>
+//      {props.value}
+//    </div>
+  );
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>react:create-componentfunction-react</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>react:componentfunction(関数を作成)</description>
+  <scope>source.js</scope>
+</snippet>

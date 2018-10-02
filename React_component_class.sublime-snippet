@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+class $1 extends React.Component {
+  constructor(props) {
+    super(props);
+//     this.state = {
+//     };
+  }
+
+  render() {
+    return (
+//       <div
+//         className='css_class_name'
+//         onClick={this.props.onClick}>
+//         {this.props.value}
+//       </div>
+    );
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>react:create-componentclass-react</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>react:componentclass(コンポーネントを作成)</description>
+  <scope>source.js</scope>
+</snippet>

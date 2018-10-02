@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+this.handle$1 = this.handle$1.bind(this);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>react:ReactHandleBind</tabTrigger>
+  <description>react:ReactHandleBind(ハンドラの定義)</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

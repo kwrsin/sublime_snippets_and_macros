@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>react:import-react</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>react:import(インポート)</description>
+  <scope>source.js</scope>
+</snippet>

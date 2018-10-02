@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+const todo = {text: val, id: window.id}
+Axios.post(this.apiURL, todo)
+  .then((res) => {
+    this.state.data.push(todo);
+    this.setState({data: this.state.data});
+  });
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>axios:POST</tabTrigger>
+  <description>axios:POST（更新）</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
