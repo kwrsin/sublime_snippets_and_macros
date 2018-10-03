@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+let $1 = self.childNode(withName: "$1") as! SKSpriteNode
+let location = touches.first!.location(in: self)
+let nodelist = nodes(at: location) as? [SKSpriteNode]
+
+if let nodelist = nodelist, nodelist.count > 0, nodelist[0] == $1 {
+    $1.physicsBody = SKPhysicsBody(texture: $1.texture!, size: $1.frame.size)
+}]]></content>
+  <tabTrigger>spritekit:sk-touch-spritenode</tabTrigger>
+  <description>spritekit:タッチして何かする</description>
+  <scope>source.swift</scope>
+</snippet>

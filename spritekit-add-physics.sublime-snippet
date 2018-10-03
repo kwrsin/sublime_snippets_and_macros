@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+let $1 = self.childNode(withName: "$1") as! SKSpriteNode
+$1.physicsBody = SKPhysicsBody(texture: $1.texture!, size: $1.size)]]></content>
+  <tabTrigger>spritekit:sk-add-phisics</tabTrigger>
+  <description>spritekit:Physicsを追加する</description>
+  <scope>source.swift</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+let $1 = self.childNode(withName: "$1") as? SKSpriteNode]]></content>
+  <tabTrigger>spritekit:sk-get-childnode</tabTrigger>
+  <description>spritekit:子ノードを取得する</description>
+  <scope>source.swift</scope>
+</snippet>
