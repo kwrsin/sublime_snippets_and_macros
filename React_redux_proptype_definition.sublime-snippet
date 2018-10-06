@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1.propTypes = {
+//  todos: PropTypes.arrayOf(
+//    PropTypes.shape({
+//      id: PropTypes.number.isRequired,
+//      completed: PropTypes.bool.isRequired,
+//      text: PropTypes.string.isRequired
+//    }).isRequired
+//  ).isRequired,
+//  onClick: PropTypes.func.isRequired
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>react:prop-type_definition</tabTrigger>
+  <description>react:prop-type_definition(React 型チェック定義)</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

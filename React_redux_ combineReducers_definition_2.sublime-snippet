@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+export default function $1(state = {}, action) {
+  return {
+    $2: $2(state.$2, action),
+    $3: $3(state.$3, action)
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>react:redux_combineReducers_definition_2</tabTrigger>
+  <description>react:redux_combineReducers_definition_2(React-Redux combineReducers_2の定義)</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

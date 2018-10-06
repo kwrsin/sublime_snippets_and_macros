@@ -1,0 +1,30 @@
+<snippet>
+  <content><![CDATA[
+const mapStateToProps = (state, props) => {
+  return {
+    // set state data
+    value: $1
+  }
+}
+​
+const mapDispatchToProps = (dispatch, props) => {
+  return {
+    onClick: () => {
+      //set Action creator
+      dispatch($2)
+    }
+  }
+}
+​
+// set top level presentational component
+const FilterLink = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)($3)
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>react:redux_mat_to_props</tabTrigger>
+  <description>react:redux_mat_to_props(React-Redux コンテナコンポーネント作成)</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

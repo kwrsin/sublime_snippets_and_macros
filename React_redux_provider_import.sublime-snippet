@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+import { Provider } from 'react-redux'
+import { createStore } from 'redux'
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>react:redux_provider_import</tabTrigger>
+  <description>react:redux_provider_import(React-Redux プロバイダのインポート)</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

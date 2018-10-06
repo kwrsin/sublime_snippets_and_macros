@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+const initialState = {
+  value : 'any',
+}
+
+function $1(state = initialState, action) {
+  return state
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>react:redux_reducer_definition</tabTrigger>
+  <description>react:redux_reducer_definition(React-Redux reducerの定義)</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

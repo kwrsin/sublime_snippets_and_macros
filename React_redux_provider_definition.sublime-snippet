@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+// set redux reducers
+const store = createStore($1)
+
+ReactDOM.render(
+  <Provider store={store}>
+    <$2 />
+  </Provider>,
+  document.getElementById('root')
+);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>react:redux_provider_definition</tabTrigger>
+  <description>react:redux_provider_definition(React-Redux root+providerの定義)</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

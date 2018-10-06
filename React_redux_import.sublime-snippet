@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+import { connect } from 'react-redux'
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>react:redux_import</tabTrigger>
+  <description>react:redux_import(React-Reduxのインポート)</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
