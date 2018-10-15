@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
-<Route exact path="/$1" component={$2} ></Route>
+<Route exact path={match.path} render={() => $1} />
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>react:router-routetag-react</tabTrigger>
+  <tabTrigger>react:router-routetag-render-react</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <description>react:router-routetag(URL固定作成)</description>
+  <description>react:router-routetag-render(描画用NestedURL作成)</description>
   <scope>source.js</scope>
 </snippet>
