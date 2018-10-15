@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>react:router-import-react</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>react:router-import(ルーターインポート)</description>
+  <scope>source.js</scope>
+</snippet>
