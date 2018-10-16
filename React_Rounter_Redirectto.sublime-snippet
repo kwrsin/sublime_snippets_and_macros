@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<Redirect to={{
+  pathname: $1,
+  state: { from: props.location }
+}}/>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>react:router-redirect-react</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>react:router-redirect(redirect)</description>
+  <scope>source.js</scope>
+</snippet>
