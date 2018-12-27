@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+if err != nil {
+  panic(err)
+}]]></content>
+  <tabTrigger>go:ep</tabTrigger>
+  <description>go:err and panic</description>
+  <scope>source.go</scope>
+</snippet>
