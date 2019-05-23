@@ -1,0 +1,47 @@
+<snippet>
+  <content><![CDATA[
+local composer = require('composer')
+
+local scene = composer.newScene()
+
+function scene:create(event)
+  local sceneGroup = self.view
+  display.newText(
+    sceneGroup,
+    ${1:title},
+    display.contentCenterX,
+    display.contentCenterY,
+    native.systemFont,
+    30)
+
+end
+
+function scene:show(event)
+  local sceneGroup = self.view
+
+  if(event.phase == 'will') then
+  elseif(event.phase == 'did') then
+    local options = {
+      effect = '${2:flipFadeOutIn}',
+      time = ${3:200},
+    }
+    composer.gotoScene("settings", options)
+  end
+end
+
+function scene:hide(event)
+  if(event.phase == 'will') then
+  elseif(event.phase == 'did') then
+  end
+end
+
+scene:addEventListener('create', scene)
+scene:addEventListener('show', scene)
+scene:addEventListener('hide', scene)
+
+return scene
+]]></content>
+  <tabTrigger>corona:composer_splash</tabTrigger>
+  <description>corona:composer_splash(splashを作成)</description>
+  <scope>source.lua</scope>
+</snippet>

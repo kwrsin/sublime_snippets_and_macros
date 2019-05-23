@@ -1,0 +1,41 @@
+<snippet>
+  <content><![CDATA[
+local composer = require('composer')
+
+local scene = composer.newScene()
+
+function scene:create(event)
+  local sceneGroup = self.view
+  display.newText(
+    sceneGroup,
+    'Hello World',
+    display.contentCenterX,
+    display.contentCenterY,
+    native.systemFont,
+    30)
+end
+
+function scene:show(event)
+  local sceneGroup = self.view
+
+  if(event.phase == 'will') then
+
+  end
+end
+
+function scene:hide(event)
+  if(event.phase == 'will') then
+  elseif(event.phase == 'did') then
+  end
+end
+
+scene:addEventListener('create', scene)
+scene:addEventListener('show', scene)
+scene:addEventListener('hide', scene)
+
+return scene
+]]></content>
+  <tabTrigger>corona:composer_template</tabTrigger>
+  <description>corona:composer_template(composerを作成)</description>
+  <scope>source.lua</scope>
+</snippet>
