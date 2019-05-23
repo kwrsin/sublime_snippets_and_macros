@@ -25,7 +25,7 @@ function scene:show(event)
       effect = '${2:flipFadeOutIn}',
       time = ${3:200},
     }
-    composer.gotoScene("settings", options)
+    composer.gotoScene("title", options)
   end
 end
 
